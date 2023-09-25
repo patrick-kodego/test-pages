@@ -1,0 +1,143 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 1rem 2rem; /* 3 */
+  }
+  
+nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+}
+
+nav li {
+    padding-left: 1rem; /* 7! */
+}
+
+nav h2{
+    margin-left: 20%;
+}
+
+nav ul{
+    margin-right: 20%;
+}
+
+.home-with-nav{
+    background-image: url(guy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clr-green{
+    color: #20e700;
+}
+
+.home{
+    height: 700px;
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100vw;
+}
+
+.home h2, .about, h2{
+    font-size: 55px;
+}
+.home h4, .about, h4{
+    font-size: larger;
+}
+
+.about{
+    height: 700px;
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100vw;
+    background-color: #242323;
+}
+.portflio{
+    display: block;
+    height: 700px;
+    width: 100vw;
+    background-color: #d9d9d9;
+    vertical-align: middle;
+    text-align: center;
+}
+.pd-100{
+    padding-top: 100px;
+}
+#client_logos {
+    display: inline-block;
+    width:100%;
+}
+
+#client_logos img{
+    width: 300px;
+    height: 200px;
+}
+
+.see-more-btn{
+    background-color: #45893a;
+    border-radius: 9px;
+    width: 120px;
+    height: 50px;
+    margin-top: 90px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.contact-me{
+    display: block;
+    height: 700px;
+    width: 100vw;
+    background-color: #3e3c3c;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.inline{
+    /* display: inline-block; */
+}
+
+.contact{
+    width: 50%;
+    height: 200px;
+    display: inherit;
+    float: left;
+    color: white;
+}
+.form{
+    width: 50%;
+    height: 200px;
+    display: inherit;
+    float: right;
+    text-align: left;
+}
+
+form input{
+    width: 224px;
+    height: 34px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: transparent;
+}
+form textarea{
+    color: white;
+    background-color: transparent;
+}
+.mt10{
+    margin-top: 20px;
+}
+.ml8{
+    margin-left: 8%;
+}
+.pl60{
+    padding-left: 60%;
+}

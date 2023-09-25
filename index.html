@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div id="header" class="header">
+        <div class="container">
+            <nav>
+                <h1 class="portfolio-header">PORT<span style="color: #1ef013;">FOLIO</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Your Name</h1>
+                <p>Freelance Front-End Web Developer</p>
+            </div>
+        </div>
+    </div>
+   <!-----------about----------->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col"></div>
+                    <h1 class="about">ABOUT ME</h1><br>
+                    <p class="abtxt">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. </p>  
+                </div>        
+            </div>
+        </div>
+    </div>
+    <!-----------portfolio------------->
+    <div id="portfolio" class="portfolio">
+        <div class="container">
+            <h1 class="porttitle">MY PORTFOLIO</h1>
+            <div class="portfolio-list">
+                <div class="portfolio-item">
+                    <img src="d1.avif">
+                </div>
+                <div class="portfolio-item">
+                    <img src="d2.avif">
+                </div>
+                <div class="portfolio-item">
+                    <img src="d3.jpg">
+                </div>
+            </div>
+            <a href="#portfolio" class="btn">See More</a>
+        </div>
+    </div>
+    <!------------contact--------------->
+    <div id="contact" class="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="row2">
+                <div class="contact-left">
+                    <div class="ml-vw10">
+                        <p><i class="fa-solid fa-envelope" style="color: #0ed9dd;"></i>testName@email.com</p>
+                    <p><i class="fa-solid fa-phone" style="color: #53ea78;"></i>09270000000</p>
+                    <div class="social-icons">
+                        <a href="">fb</a>
+                        <a href="">tw</a>
+                    </div>
+                    </div>
+                    <a href="#" download class="dlbtn">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>        
+        </div>    
+    </div>
+    <!------------copyright--------------->
+    <footer class="copyright">Copyright 2023 - Portfolio-name</footer>
+</body>
+</html>
